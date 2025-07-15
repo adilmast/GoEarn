@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Investment Plans</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Choose Investment Plan</h2>
+    <select id="plan">
+      <option value="Starter - Rs 350">Starter – Rs 350</option>
+      <option value="Basic - Rs 1000">Basic – Rs 1000</option>
+      <option value="Premium - Rs 5000">Premium – Rs 5000</option>
+    </select>
+
+    <h3>Upload Payment Proof (screenshot)</h3>
+    <input type="file" id="paymentProof" accept="image/*">
+
+    <button onclick="submitPayment()">Submit Payment</button>
+    <p id="status"></p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
